@@ -1,0 +1,13 @@
+{
+  "name": "perkyjobs-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "bot": "npx tsx x-bot.ts",
+    "test-workflow": "npx tsx test-workflow.ts"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^3.0.0",
+    "tsx": "^4.0.0"
+  }
+}

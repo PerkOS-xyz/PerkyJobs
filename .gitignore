@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+.next/
+.DS_Store
+*.log
+contracts/lib/forge-std
+contracts/lib/openzeppelin-contracts
+contracts/broadcast/
+webapp/.netlify/
+webapp/out/
+contracts/cache/

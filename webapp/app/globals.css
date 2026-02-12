@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --celo-green: #35D07F;
+  --celo-gold: #FBCC5C;
+}
+
+body {
+  @apply bg-gray-950 text-white;
+}
