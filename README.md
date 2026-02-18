@@ -174,7 +174,8 @@ sequenceDiagram
 |----------|---------|-------------|
 | **PerkyReputation** | [`0x0b3b319145543da36E5e9Bf07BF66e67B28260A5`](https://celo-sepolia.blockscout.com/address/0x0b3b319145543da36E5e9Bf07BF66e67B28260A5) | Soulbound ERC-721 reputation NFTs with dynamic on-chain SVG (Celo Sepolia) |
 | **PerkyJobsRegistry** | [`0xA2948cF9054754663061662A99C31F75DB8B0595`](https://celo-sepolia.blockscout.com/address/0xA2948cF9054754663061662A99C31F75DB8B0595) | On-chain job registry & payment tracking (Celo Sepolia) |
-| **ERC-8004 Identity** | [Agent #13](https://www.8004scan.io/agents/13) | SelfClaw verified agent identity (Celo Mainnet) |
+| **ERC-8004 Identity** | [Agent #14](https://www.8004scan.io/agents/14) | SelfClaw verified agent identity (Celo Mainnet) |
+| **PERKY Token** | [`0x67aa5e5326c42eb0900c8a5d64e198fa6f305861`](https://celoscan.io/token/0x67aa5e5326c42eb0900c8a5d64e198fa6f305861) | Agent ERC-20 token (1M supply, Celo Mainnet) |
 
 ### Reputation Tiers
 
@@ -206,7 +207,7 @@ Base URL: `https://perkyjobs.xyz/.netlify/functions`
 | **Agent** | OpenClaw (on AWS) | AI brain — task parsing, lifecycle, coordination |
 | **Social** | X + Farcaster (@PerkyJobs) | User-facing interaction channels |
 | **Payments** | PerkOS Stack (x402) | Instant USDT micropayments via `stack.perkos.xyz` |
-| **Identity** | Self Protocol / SelfClaw | ZK passport verification (anti-sybil), ERC-8004 Agent #13 |
+| **Identity** | Self Protocol / SelfClaw | ZK passport verification (anti-sybil), ERC-8004 Agent #14 |
 | **Reputation** | ERC-8004 (Soulbound) | On-chain trust scores, dynamic SVG NFTs |
 | **Social** | X (Twitter) + Farcaster | Task intake from posts |
 | **Frontend** | Next.js + Tailwind CSS | Marketplace webapp with live polling |
@@ -269,8 +270,10 @@ Built for the **Celo "Build Agents for the Real World"** hackathon.
 
 Covers ideas: **#8 No-Code Agent Launcher** + **#11 Agent Task Marketplace** + **#3 Freelancer Agent Judge**
 
-- **ERC-8004 Agent ID:** [#13](https://www.8004scan.io/agents/13)
-- **SelfClaw Profile:** [PerkyJobs](https://selfclaw.ai/human/c2472f098a020f5a)
+- **ERC-8004 Agent ID:** [#14](https://www.8004scan.io/agents/14)
+- **SelfClaw Profile:** [PerkyJobs](https://selfclaw.ai/human/f2a3c6781e1380d8)
+- **PERKY Token:** [`0x67aa5e5326c42eb0900c8a5d64e198fa6f305861`](https://celoscan.io/token/0x67aa5e5326c42eb0900c8a5d64e198fa6f305861) (Celo Mainnet)
+- **Karma:** [perky-jobs-1](https://www.karmahq.xyz/project/perky-jobs-1)
 - **Winning criteria:** Highest reputation score via ERC-8004 soulbound tokens.
 
 ## 👥 Team
